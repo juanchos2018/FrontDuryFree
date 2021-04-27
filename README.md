@@ -1,4 +1,4 @@
-# Vuemmerce - Ecommerce Template
+# NuxtCommerce - DutyFree
 
 Responsive ecommerce template built with Vue.js and Nuxt.js
 
@@ -14,7 +14,7 @@ Responsive ecommerce template built with Vue.js and Nuxt.js
 
 ```
 # clone repository
-git clone https://github.com/ivanlori/Vuemmerce.git
+git clone https://github.com/juanchos2018/FrontDuryFree.git
 
 # install dependencies
 yarn install
@@ -36,13 +36,12 @@ nuxt generate
 
 ![Vuemmerce - Ecommerce Template](screen.png "Vuemmerce - Ecommerce Browser Preview")
 
-**[Template Demo](https://vuemmerce-git-master.ivanlori.now.sh/)**
 
 ---
 
 ## Authors
 
-- **Ivan Lori** - _Initial work_ - [ivanlori](https://github.com/ivanlori)
+- **Juan Carlos** - _Initial work_ - [ivanlori](https://github.com/juanchos2018)
 
 ---
 
