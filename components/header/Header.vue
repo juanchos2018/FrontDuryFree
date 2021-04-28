@@ -2,23 +2,20 @@
   <div>
  <header class="header">  
     <div class="header-topbar d-none d-lg-block">
-        <div class="header-topbar-inner">
-         
+        <div class="header-topbar-inner">         
             <div class="topbar-left hidden-sm-down">
                 <div class="phone"><i class="fa fa-phone left" aria-hidden="true"></i>Fono Ventas: <a href="tel:51981513145"><b>51 981513145</b></a></div>
-            </div>
-         
+            </div>         
             <div class="topbar-right d-flex align-items-center justify-content-end">
                 <ul class="list-none">
                       <li>
                            <NuxtLink to="/Login/Login">  <i class="fa fa-lock left" aria-hidden="true"></i><span class="hidden-sm-down">Iniciar Sesión</span></NuxtLink>
                          </li>
-                    <li>
+                      <li>
                          <NuxtLink to="/Registrar/Registrar">  <i class="fa fa-lock left" aria-hidden="true"></i><span class="hidden-sm-down">Regístrate</span></NuxtLink>
                       </li>
                       <li>
-                            <NuxtLink to="/Tiendas/Tiendas">  Tiendas</NuxtLink>
-                        
+                            <NuxtLink to="/Tiendas/Tiendas">  Tiendas</NuxtLink>                        
                     </li>
                     <li>
                           <NuxtLink to="/Marcas/Marcas">  MARCAS</NuxtLink>
@@ -26,10 +23,8 @@
                     <li>
                         <NuxtLink to="/Pedidos/Pedidos">PEDIDOS</NuxtLink>
                     </li>
-                    <li>
-                        
+                    <li>                        
                        <NuxtLink to="/Contactenos/Contactenos">Contáctenos</NuxtLink>
-
                     </li>
                 </ul>
                 <ul class="list-inline ml-3">
@@ -106,12 +101,12 @@
 
 <script>
 
-  import VmMenu from '../menu/Menu';
-  import VmSearch from '../search/Search';
-  import HeaderWraper from './HeaderWraper';
+import VmMenu from '../menu/Menu';
+import VmSearch from '../search/Search';
+import HeaderWraper from './HeaderWraper';
 
 
-  export default {
+export default {
     name: 'VmHeader',
    components: {
       VmSearch,

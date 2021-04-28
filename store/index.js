@@ -3,8 +3,8 @@ export const state = () => ({
     {
       id: 1,
       title: 'Product 1',
-      description: 'Producto 1 we ',
-      price: 150,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      price: 50,
       ratings: 3,
       reviews: 5,
       isAddedToCart: false,
@@ -16,7 +16,7 @@ export const state = () => ({
       id: 2,
       title: 'Product 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 135,
+      price: 35,
       ratings: 5,
       reviews: 10,
       isAddedToCart: false,
@@ -40,7 +40,7 @@ export const state = () => ({
       id: 4,
       title: 'Product 4',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 150,
+      price: 50,
       ratings: 1,
       reviews: 0,
       isAddedToCart: false,
@@ -52,7 +52,7 @@ export const state = () => ({
       id: 5,
       title: 'Product 5',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 150,
+      price: 35,
       ratings: 4,
       reviews: 2,
       isAddedToCart: false,
@@ -71,42 +71,6 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1
-    },
-    {
-      id: 7,
-      title: 'Product 7',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 150,
-      ratings: 5,
-      reviews: 7,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 8,
-      title: 'Product 8',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 135,
-      ratings: 3,
-      reviews: 0,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 9,
-      title: 'Product 9',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 110,
-      ratings: 4,
-      reviews: 2,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
     }
   ],
   userInfo: {
@@ -119,7 +83,8 @@ export const state = () => ({
   systemInfo: {
     openLoginModal: false,
     openSignupModal: false,
-    openCheckoutModal: false
+    openCheckoutModal: false,
+    openAddProductoModal:false
   }
 })
 
@@ -154,6 +119,9 @@ export const getters = {
   },
   isCheckoutModalOpen: state => {
     return state.systemInfo.openCheckoutModal;
+  },
+  isAddModalOpen:state => {
+    return state.systemInfo.openAddProductoModal;
   },
   quantity: state => {
     return state.products.quantity;
@@ -210,6 +178,9 @@ export const mutations = {
   },
   showCheckoutModal: (state, show) => {
     state.systemInfo.openCheckoutModal = show;
+  },
+  showAddModal:(state,show)=>{
+    state.systemInfo.openAddProductoModal=show;
   },
   addToFavourite: (state, id) => {
     state.products.forEach(el => {

@@ -51,7 +51,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="button" class="btn-add-to-cart add_to_cart d-flex align-items-center" data-qty="1" data-code="2" @click="addToCart(product.id)">
+                                    <button type="button" class="btn-add-to-cart add_to_cart d-flex align-items-center" data-qty="1" data-code="2" @click="showCheckoutModal()">
                                         <span class="spinner-loading spinner-border spinner-border-sm d-none mr-2" role="status" aria-hidden="true"></span>
                                         <img width="20px" class="p-icon-cart" src="https://comprasentacna.com/assets/img/icons/cart.svg">
                                         <span>Añadir al Carrito</span>
@@ -99,6 +99,10 @@ export default {
   },
 
   methods: {
+     showCheckoutModal () {
+     
+        this.$store.commit('showAddModal', true);
+      },
     addToCart (id) {
       let data = {
         id: id,

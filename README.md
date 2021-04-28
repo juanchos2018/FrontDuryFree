@@ -17,10 +17,10 @@ Responsive ecommerce template built with Vue.js and Nuxt.js
 git clone https://github.com/juanchos2018/FrontDuryFree.git
 
 # install dependencies
-yarn install
+npm install
 
 # serve with hot reload at localhost:3000
-yarn dev
+npm run dev
 
 # prepare for production via webpack
 yarn build
