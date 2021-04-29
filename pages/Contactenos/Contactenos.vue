@@ -62,3 +62,31 @@ export default {
     
 }
 </script>
+
+<style lang="scss" scoped>
+h2 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+.content-page {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.product-share ul {
+    color: #4e4e4e;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 2px;
+}
+.product-share {
+    margin-bottom: 15px;
+}
+.product-share ul li, .product-share > span {
+    display: inline-block;
+}
+
+
+</style>

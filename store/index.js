@@ -4,7 +4,7 @@ export const state = () => ({
       id: 1,
       title: 'Product 1',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 50,
+      price: 150.00,
       ratings: 3,
       reviews: 5,
       isAddedToCart: false,
@@ -16,7 +16,7 @@ export const state = () => ({
       id: 2,
       title: 'Product 2',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 35,
+      price: 135,
       ratings: 5,
       reviews: 10,
       isAddedToCart: false,
@@ -35,43 +35,9 @@ export const state = () => ({
       isAddedBtn: false,
       isFavourite: false,
       quantity: 1
-    },
-    {
-      id: 4,
-      title: 'Product 4',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 50,
-      ratings: 1,
-      reviews: 0,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 5,
-      title: 'Product 5',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 35,
-      ratings: 4,
-      reviews: 2,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 6,
-      title: 'Product 6',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 110,
-      ratings: 5,
-      reviews: 1,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
     }
+   
+    
   ],
   userInfo: {
     isLoggedIn: false,

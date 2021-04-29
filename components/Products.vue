@@ -99,8 +99,7 @@ export default {
   },
 
   methods: {
-     showCheckoutModal () {
-     
+     showCheckoutModal () {     
         this.$store.commit('showAddModal', true);
       },
     addToCart (id) {

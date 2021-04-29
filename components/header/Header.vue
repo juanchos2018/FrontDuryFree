@@ -52,7 +52,7 @@
             </div>
             <div class="flex-grow-1 d-none d-lg-block">
                 <div class="header-search search-form-actives">
-                    <form action="https://comprasentacna.com/products/search" class="d-flex" method="GET" name="site-search" role="search">
+                    <form action="/" class="d-flex" method="GET" name="site-search" role="search">
                         <div class="w-100">
                             <div class="header-search-field">
                                 <input type="text" value="" id="ui_autocomplete" name="q" autocomplete="off" placeholder="¿Qué producto necesitas?" class="header-search-input ui-autocomplete-input" tabindex="0">

@@ -1,11 +1,12 @@
 <template>
   <div class="columns is-centered is-multiline">
-    <div class="card column is-one-quarter" v-for="product in products" :key="product.id">
+    <div  v-for="product in products" :key="product.id">
       <VmProducts :product="product"></VmProducts>
     </div>
     <div class="section" v-if="products.length === 0">
       <p>{{ noProductLabel }}</p>
     </div>
+    <br>
   </div>
 </template>
 
@@ -40,7 +41,7 @@ export default {
     getProductByTitle () {
       let listOfProducts = this.$store.state.products,
           titleSearched = this.$store.state.userInfo.productTitleSearched;
-      
+      //class="card column is-one-quarter"
       return this.productsFiltered = getByTitle(listOfProducts, titleSearched);
     }
   }

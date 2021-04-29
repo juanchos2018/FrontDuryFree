@@ -38,7 +38,74 @@
     </div>
 </section>
     
-  
+  <div class="w-100 pt-5 pb-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-45">
+                    <div class="footer-block about-us-block">
+                        <img src="https://comprasentacna.com/assets/img/logo-white.png" class="img-fluid" alt="">
+                        <p>DPG, es una empresa con más de 35 años de experiencia en la distribución y retail de las marcas de lujo más reconocidas a nivel mundial.</p>
+                        <ul class="footer-social-icon list-none-ib">
+                            <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://wa.me/51981513145" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-45">
+                    <div class="footer-block information-block">
+                        <h6 class="text-uppercase">Información</h6>
+                        <ul>
+                            <li><a href="https://comprasentacna.com/sobre-nosotros">Sobre Nosotros</a></li>
+                            <li><a href="https://comprasentacna.com/terminos-y-condiciones">Términos y Condiciones</a></li>
+                            <li><a href="https://comprasentacna.com/politica-de-privacidad">Política de Privacidad</a></li>
+                            <li><a href="https://comprasentacna.com/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+                            <li><a href="https://comprasentacna.com/terminos-y-condiciones?#cyd">Cambios y Devoluciones</a></li>
+                            <li><a href="https://comprasentacna.com/contactenos">Contacte con Nosotros</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-45">
+                    <div class="footer-block links-block">
+                        <h6 class="text-uppercase">Enlaces</h6>
+                        <ul>
+                            <li><a href="https://comprasentacna.com/login">Iniciar Sesión</a></li>
+                            <li><a href="https://comprasentacna.com/register">Regístrate</a></li>
+                            <li><a href="https://comprasentacna.com/pedidos">Pedidos</a></li>
+                            <li><a href="https://comprasentacna.com/marcas">Marcas</a></li>
+                            <li><a href="https://comprasentacna.com/nuestras-tiendas">Nuestra Tienda</a></li>
+                            <li><a href="https://comprasentacna.com/ofertas">Ofertas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-45">
+                    <div class="footer-block extra-block">
+                        <h6 class="text-uppercase">Productos</h6>
+                        <ul>
+                            <li><a href="https://comprasentacna.com/products/1/perfumeria/c">Perfumería</a></li>
+                            <li><a href="https://comprasentacna.com/products/2/licores/c">Licores</a></li>
+                            <li><a href="https://comprasentacna.com/products/3/lentes/c">Lentes</a></li>
+                            <li><a href="https://comprasentacna.com/products/4/relojes/c">Relojes</a></li>
+                            <li><a href="https://comprasentacna.com/products/5/cosmeticos/c">Cosméticos</a></li>
+                            <li><a href="https://comprasentacna.com/products/6/accesorios/c">Accesorios</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-6">
+                    <div class="footer-block contact-block">
+                        <h6 class="text-uppercase">Contacto</h6>
+                        <ul>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Aeropuerto Carlos Ciriani<br> Tienda 6 - 7, Tacna - Perú</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ventas@dpgdutyfree.com">ventas@dpgdutyfree.com</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:052578214">(052) 578214</a></li>
+                            <li><i class="fa fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/51981513145" target="_blank">51 981513145</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
 </template>
 
@@ -81,5 +148,72 @@ export default {
 .info-item_description {
     margin: 0;
     color: #EEEEEE;
+}
+.footer-block {
+    display: block;
+    margin: 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.footer-block p {
+    color: #EEEEEE;
+    margin: 30px 0;
+}
+ul.list-none-ib li, .list-none-ib {
+    display: inline-block;
+}
+.footer-block ul li a {
+    color: #EEEEEE;
+    margin: 0 auto;
+}
+.footer-social-icon li a {
+    background: rgba(255, 255, 255, 0.13) none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    text-align: center;
+}
+.footer-block h6 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-block.contact-block li i {
+    position: absolute;
+    left: 0;
+    line-height: inherit;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
 }
 </style>

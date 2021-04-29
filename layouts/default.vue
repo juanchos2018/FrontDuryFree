@@ -1,10 +1,8 @@
 <template>
   <div>
     <VmHeader></VmHeader>
-    <main>
-      <nuxt/>
-      <VmLoginModal></VmLoginModal>
-      <VmRegistrationModal></VmRegistrationModal>
+      <main>
+      <nuxt/>  
       <VmCheckoutModal></VmCheckoutModal>
       <Mensaje></Mensaje>
     </main>
@@ -16,16 +14,12 @@
 <script>
 import VmHeader from '@/components/header/Header';
 import VmFooter from '@/components/footer/Footer';
-import VmLoginModal from '@/components/modal/Login';
-import VmRegistrationModal from '@/components/modal/Registration';
 import VmCheckoutModal from '@/components/modal/Checkout';
 import Mensaje from '@/components/modal/Mensaje';
 export default {
   components: {
     VmHeader,
     VmFooter,
-    VmLoginModal,
-    VmRegistrationModal,
     VmCheckoutModal,
     Mensaje
   }

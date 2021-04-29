@@ -4,6 +4,9 @@
     <Promo></Promo>
 
     <VmProductsList></VmProductsList>
+    <br>
+   <Categoria></Categoria>
+
   </div>
 </template>
 
@@ -11,6 +14,7 @@
 import VmProductsList from '@/components/products_list/ProductsListContainer';
 import VmHero from '@/components/hero/Hero';
 import Promo from '@/components/promo/Promo'
+import Categoria from '@/components/categoria/Categoria'
 import 'bootstrap/dist/css/bootstrap.css' 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default {
@@ -18,7 +22,8 @@ export default {
   components: {
     VmProductsList,
     VmHero,
-    Promo
+    Promo,
+    Categoria
   }
 };
 </script>
