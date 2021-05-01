@@ -19,9 +19,9 @@
                                 }"
                               >
                               </nuxt-link>
-                              <img src="https://comprasentacna.com/admin/storage/products/212-vip-80-ml-edp-dama-c-212car004.jpg" alt="212 VIP 80 ML EDP DAMA">
+                              <img src="perfume1.jpg" alt="212 VIP 80 ML EDP DAMA">
                             </div>
-                            <span class="label_discount text-nowrap">10%OFF</span>
+                        <!--    <span class="label_discount text-nowrap">10%OFF</span>-->
                      <span class="label-stock stock_available text-nowrap">En stock</span>
                         </div>
                         <div class="product-detail d-flex flex-column flex-grow-1">
@@ -36,7 +36,7 @@
                             <div class="mt-auto">
                                 <div>
                                     <a class="tag" href="#">PERFUMERIA</a>
-                                    <div class="rg_productviews-list">🔥 11 personas están viendo este producto.</div>
+                                    <div class="rg_productviews-list">.</div>
                                     <h5 class="item-price">
                                     <del>S/ 289.00</del>
                                   S/   {{ product.price }}</h5>

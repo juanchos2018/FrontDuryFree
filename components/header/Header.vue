@@ -34,15 +34,14 @@
                     <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-lg fa-whatsapp"></i></a></li>
                 </ul>
             </div>
-            <!-- End Topbar Right -->
+            
         </div>
     </div>
-    <!--End Topbart-->
-    <!-- Header Container -->
+  
     <div id="header-sticky" class="header-main">
-        <!-- inner -->
+      
         <div class="header-main-inner d-flex align-items-center">
-            <!-- c -->
+           
             <div class="flex-grow-1 flex-lg-grow-0 mr-0 mr-lg-3">
                 <div class="header-logo">           
                     <NuxtLink to="/"> 

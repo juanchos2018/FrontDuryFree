@@ -46,10 +46,10 @@
                         <img src="https://comprasentacna.com/assets/img/logo-white.png" class="img-fluid" alt="">
                         <p>DPG, es una empresa con más de 35 años de experiencia en la distribución y retail de las marcas de lujo más reconocidas a nivel mundial.</p>
                         <ul class="footer-social-icon list-none-ib">
-                            <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="https://wa.me/51981513145" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            <li><a href="#" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#" ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,12 +57,11 @@
                     <div class="footer-block information-block">
                         <h6 class="text-uppercase">Información</h6>
                         <ul>
-                            <li><a href="https://comprasentacna.com/sobre-nosotros">Sobre Nosotros</a></li>
-                            <li><a href="https://comprasentacna.com/terminos-y-condiciones">Términos y Condiciones</a></li>
-                            <li><a href="https://comprasentacna.com/politica-de-privacidad">Política de Privacidad</a></li>
-                            <li><a href="https://comprasentacna.com/preguntas-frecuentes">Preguntas Frecuentes</a></li>
-                            <li><a href="https://comprasentacna.com/terminos-y-condiciones?#cyd">Cambios y Devoluciones</a></li>
-                            <li><a href="https://comprasentacna.com/contactenos">Contacte con Nosotros</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                           
+                            <li><a href="#">Cambios y Devoluciones</a></li>
+                            <li><a href="#">Contacte con Nosotros</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,12 +69,11 @@
                     <div class="footer-block links-block">
                         <h6 class="text-uppercase">Enlaces</h6>
                         <ul>
-                            <li><a href="https://comprasentacna.com/login">Iniciar Sesión</a></li>
-                            <li><a href="https://comprasentacna.com/register">Regístrate</a></li>
-                            <li><a href="https://comprasentacna.com/pedidos">Pedidos</a></li>
-                            <li><a href="https://comprasentacna.com/marcas">Marcas</a></li>
-                            <li><a href="https://comprasentacna.com/nuestras-tiendas">Nuestra Tienda</a></li>
-                            <li><a href="https://comprasentacna.com/ofertas">Ofertas</a></li>
+                            <li><a href="#">Iniciar Sesión</a></li>
+                            <li><a href="#">Regístrate</a></li>
+                            <li><a href="#">Pedidos</a></li>
+                            <li><a href="#">Marcas</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -83,12 +81,11 @@
                     <div class="footer-block extra-block">
                         <h6 class="text-uppercase">Productos</h6>
                         <ul>
-                            <li><a href="https://comprasentacna.com/products/1/perfumeria/c">Perfumería</a></li>
-                            <li><a href="https://comprasentacna.com/products/2/licores/c">Licores</a></li>
-                            <li><a href="https://comprasentacna.com/products/3/lentes/c">Lentes</a></li>
-                            <li><a href="https://comprasentacna.com/products/4/relojes/c">Relojes</a></li>
-                            <li><a href="https://comprasentacna.com/products/5/cosmeticos/c">Cosméticos</a></li>
-                            <li><a href="https://comprasentacna.com/products/6/accesorios/c">Accesorios</a></li>
+                            <li><a href="#">Perfumería</a></li>
+                            <li><a href="#">Licores</a></li>
+                            <li><a href="#">Lentes</a></li>
+                            <li><a href="#">Relojes</a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -96,10 +93,10 @@
                     <div class="footer-block contact-block">
                         <h6 class="text-uppercase">Contacto</h6>
                         <ul>
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Aeropuerto Carlos Ciriani<br> Tienda 6 - 7, Tacna - Perú</li>
-                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ventas@dpgdutyfree.com">ventas@dpgdutyfree.com</a></li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:052578214">(052) 578214</a></li>
-                            <li><i class="fa fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/51981513145" target="_blank">51 981513145</a></li>
+                            
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">ventas@dpgdutyfree.com</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">(052) 578214</a></li>
+                            <li><i class="fa fa-whatsapp" aria-hidden="true"></i><a href="#" target="_blank">51 981513145</a></li>
                         </ul>
                     </div>
                 </div>

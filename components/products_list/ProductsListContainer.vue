@@ -1,5 +1,8 @@
 <template>
   <div class="columns is-centered is-multiline">
+    <div class="container-lg">
+        <h2 class="page-title font-900 text-uppercase">Nuestros Productos</h2>
+    </div>
     <div  v-for="product in products" :key="product.id">
       <VmProducts :product="product"></VmProducts>
     </div>
@@ -53,4 +56,9 @@ export default {
   .card {
     margin: 10px;
   }
+  .page-title {
+    text-align: center;
+    color: #000000;
+    letter-spacing: 1px;
+}
 </style>

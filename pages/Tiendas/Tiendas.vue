@@ -71,3 +71,50 @@
 
     </div>
 </template>
+
+<script>
+export default {
+    
+}
+</script>
+
+<style lang="scss" scoped>
+.box-store-item {
+    width: 100%;
+    position: relative;
+}
+.bs-item__title {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000000;
+}
+.font-700 {
+    font-weight: 700 !important;
+}
+.bs-item__cont {
+    width: 100%;
+    position: relative;
+    padding: 4px 0;
+}
+.bs-item__subtitle {
+    font-size: 1.2em;
+    margin: 0;
+    color: #00174F;
+    margin-bottom: 5px;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
